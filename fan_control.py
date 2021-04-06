@@ -10,7 +10,7 @@ import RPi.GPIO as GPIO
 from collections import deque
 
 # Settings
-fanPin = 18  # The pin ID, edit here to change it
+fanPin = 21  # The pin ID, edit here to change it
 desiredTemp = 54  # The maximum temperature in Celsius after which we trigger the fan and work to "return" to it
 fan_speed_min = 20  # Minimal speed of fan, if more lower - going off. Because most of fans very loud on low PWM
 fan_speed_max = 100  # Maximum speed of fan
